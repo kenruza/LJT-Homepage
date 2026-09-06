@@ -36,3 +36,11 @@ Contact
 - GitHub: [Vicent0205](https://github.com/Vicent0205)
 - Google Scholar: [Profile](https://scholar.google.com/citations?hl=en&amp;user=tbK9jl4AAAAJ&amp;view_op=list_works&amp;sortby=pubdate)
 - X (Twitter): [@junteng88716710](https://x.com/junteng88716710)
+
+Publications
+======
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
